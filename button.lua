@@ -26,6 +26,7 @@ function button.new(x, y, w, h, name, clr, func, isClickable)
     return this
 end
 
+--TODO: average the string's length, and draw the text from there relative to the button.
 local function centerText(x, y, w, h, text)
     local newX = math.floor(x + w / 2 - string.len(text) + 3)
     local newY = math.floor(y + h / 2)
