@@ -3,11 +3,11 @@ A simple lightweight button API for ComputerCraft.
 
 ----------------------------------------------------------------------------------------
 
-To start, lets run through an example.
+To start, let's run through an example.
 
 (see example.lua for a smaller version of this explanation.)
 
-Lets start by requiring the button API.
+Let's start by requiring the button API.
 ```pastebin get eVPAMF4e```
 
 ```lua
@@ -20,7 +20,7 @@ You now have access the the button object; heres how to create a button.
 local btn = button.new(number: x, number: y, number: w, number: h, string: name, number: color, function: func, boolean: isClickable)
 ```
 
-Lets break it down.
+Let's break it down.
 
 ```
 x:           Give the x coordinate of the button. (buttons draw from the top left downwards.)
@@ -33,7 +33,7 @@ func:        Sets the function that you wish to trigger when the button is click
 isClickable: Whether or not the button is clickable; if false, it grays out the button.
 ```
 
-Now that you know how to setup a button, lets go through a simple program!
+Now that you know how to setup a button, let's go through a simple program!
 
 ```lua
 --requiring the button api.
@@ -74,4 +74,4 @@ And if you click on it...
 
 ![image](https://user-images.githubusercontent.com/97827691/185297970-0fc46ab1-4ad5-4a97-8d49-cc2b41007c0f.png)
 
-Thats how to use the Grumbo Co Button API.
+That's how to use the Grumbo Co Button API.
