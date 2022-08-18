@@ -67,6 +67,7 @@ end
 ```
 
 This program should draw the following button.
+It does its best to center the text.
 
 ![image](https://user-images.githubusercontent.com/97827691/185297920-9638923e-e0d5-4cf1-aac2-d154eda5ac41.png)
 
