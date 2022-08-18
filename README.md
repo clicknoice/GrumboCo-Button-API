@@ -8,6 +8,7 @@ To start, lets run through an example.
 (see example.lua for a smaller version of this explanation.)
 
 Lets start by requiring the button API.
+https://pastebin.com/eVPAMF4e
 
 ```lua
 local button = require("FILEPATH")
